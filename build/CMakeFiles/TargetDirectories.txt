@@ -1,0 +1,4 @@
+C:/Projects/opengl-engine/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/opengl-engine/build/CMakeFiles/ZERO_CHECK.dir
+C:/Projects/opengl-engine/build/third_party/glad/CMakeFiles/glad.dir
+C:/Projects/opengl-engine/build/app/CMakeFiles/opengl-engine.dir

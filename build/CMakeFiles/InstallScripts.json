@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/opengl-engine/build/cmake_install.cmake",
+		"C:/Projects/opengl-engine/build/third_party/cmake_install.cmake",
+		"C:/Projects/opengl-engine/build/third_party/glad/cmake_install.cmake",
+		"C:/Projects/opengl-engine/build/third_party/glfw3/cmake_install.cmake",
+		"C:/Projects/opengl-engine/build/third_party/khr/cmake_install.cmake",
+		"C:/Projects/opengl-engine/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

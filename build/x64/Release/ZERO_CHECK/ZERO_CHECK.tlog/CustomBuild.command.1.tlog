@@ -1,0 +1,10 @@
+^C:\PROJECTS\OPENGL-ENGINE\BUILD\CMAKEFILES\7FCB18916EF8A94283905925E1C577B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\cmake\bin\cmake.exe" -SC:/Projects/opengl-engine/project -BC:/Projects/opengl-engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/opengl-engine/build/opengl-engine.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

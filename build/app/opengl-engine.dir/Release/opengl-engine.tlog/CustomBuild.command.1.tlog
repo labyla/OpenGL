@@ -1,0 +1,10 @@
+^C:\PROJECTS\OPENGL-ENGINE\PROJECT\APP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\cmake\bin\cmake.exe" -SC:/Projects/opengl-engine/project -BC:/Projects/opengl-engine/build --check-stamp-file C:/Projects/opengl-engine/build/app/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
